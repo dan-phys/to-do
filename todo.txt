@@ -1,0 +1,14 @@
+to-do (html css js)
+	centralizar contéudo
+	título
+	inicialmente vazia (printar não há itens)
+	input para inserir os elementos e botão (escrito adicione uma tarefa) com estilo do google
+	nos elementos da lista tem 2 botões, 1 lixeira e 1 lápis
+	excluir faz surgir um confirm (deseja realmente excluir?)
+	editar faz o item virar input e o ícone de lápis vira de disco para salvar e volta a ser texto
+	guardar dados no localstorage
+	*inserir e remover elementos na DOM
+	*eventos
+	*
+-----------------------------------
+spoiler: fetch API; api do github
