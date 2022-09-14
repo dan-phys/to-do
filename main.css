@@ -1,0 +1,33 @@
+h1{
+    color: red;
+}
+
+.new-input{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.user-input{
+    width: 30%;
+    height: 30px;
+    padding: 1px;
+    display: inline;
+}
+
+.add-button{
+    background-image: url('images/add-button.png');
+    background-size: cover;
+    background-color: transparent;
+    width: 34px;
+    height: 34px;
+    vertical-align: top;
+}
+
+.tasks{
+    margin: 100px 15%;
+    border: 2pt solid black;
+}
+
+li{
+    margin-top: 10px;
+}
