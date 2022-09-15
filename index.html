@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
     <title>To-do list</title>
 </head>
 <body>
-    <center>
-        <h1>Aí é pica</h1>
-    </center>
-
+    <h1>Aí é pica</h1>
+    
     <div class="new-input">
-        <input type="text" class="user-input" id="input-text">
+        <input type="text" class="user-input" id="input-text" placeholder="Insira a tarefa aqui" onfocus="addTaskEnter()">
         <button type="button" class="add-button" onclick="addTask()"></button>
+        <!-- Melhorar esse botão, o tamanho dele não tá exatamente igual à barra de input -->
     </div>
 
     <div class="tasks">
-        <ol id="task">
-            
-        </ol>
+        <ol id="tasks"></ol>
     </div>
+    <!-- Fazer os botões de editar/apagar dinâmicos, surgindo ao passar o mouse em cima do item -->
+    <!-- Fazer aba de itens concluídos -->
+    <script src="main.js"></script>
 </body>
 </html>
