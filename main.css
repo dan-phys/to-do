@@ -1,5 +1,10 @@
 h1{
     color: red;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
 }
 
 .new-input{
@@ -9,8 +14,9 @@ h1{
 
 .user-input{
     width: 30%;
-    height: 30px;
-    padding: 1px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: inline;
 }
 
@@ -18,9 +24,11 @@ h1{
     background-image: url('images/add-button.png');
     background-size: cover;
     background-color: transparent;
-    width: 34px;
-    height: 34px;
+    width: 25px;
+    height: 25px;
     vertical-align: top;
+    border-radius: 100%;
+    border-color: transparent;
 }
 
 .tasks{
@@ -30,4 +38,19 @@ h1{
 
 li{
     margin-top: 10px;
+    width: 90%;
+    text-align: justify;
+    overflow-wrap: break-word;
+}
+
+.remove-button{
+    background-image: url(https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/delete/default/20px.svg);
+}
+
+.edit-button{
+    background-image: url(images/pen.png);
+}
+
+.check-button{
+    background-image: url(images/check.png);
 }
