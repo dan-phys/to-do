@@ -12,7 +12,10 @@
     <div class="new-input">
         <input type="text" class="user-input" id="input-text" placeholder="Insira a tarefa aqui" onfocus="addTaskEnter()">
         <button type="button" class="add-button" onclick="addTask()"></button>
+        <button type="button" class="clear-list" onclick="clearList()"></button>
         <!-- Melhorar esse botão, o tamanho dele não tá exatamente igual à barra de input -->
+        <!-- Pq a imagem fica se repetindo nas bordas?  -->
+        <!-- Bug no input: tirar e voltar para o foco faz inserir linhas em branco -->
     </div>
 
     <div class="tasks">
