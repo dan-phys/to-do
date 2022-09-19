@@ -12,6 +12,10 @@ function addTask(){
     clearInput();
 }
 
+function clearList(){
+    document.getElementById("tasks").innerHTML = "";
+}
+
 function addTaskEnter(){
     let input = document.getElementById("input-text");
     input.addEventListener("keypress", (e) => {
