@@ -54,3 +54,14 @@ li{
 .check-button{
     background-image: url(images/check.png);
 }
+
+.clear-list{
+    background-image: url(https://icons.iconarchive.com/icons/custom-icon-design/mono-general-4/512/trash-icon.png);
+    background-size: cover;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    vertical-align: top;
+    border-radius: 100%;
+    border-color: transparent;
+}
